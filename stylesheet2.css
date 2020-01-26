@@ -1,0 +1,31 @@
+#first{
+background-image: url(bg.jpg);
+width:100%;
+margin: 0px;
+padding:0px;
+height: 750px;
+perspective: 600px;
+
+}
+body{
+    margin: 0px;
+    
+}
+#logo:hover{
+    box-shadow:-2px -2px 5px #F5C0FB inset,
+	    2px 2px 5px #F5C0FB inset;
+    border-radius:50%
+}
+#second{
+    width:100%;
+margin: 0px;
+padding:0px;
+height: 750px;
+}
+#third{
+    background-image: url(bg.jpg);
+width:100%;
+margin: 0px;
+padding:0px;
+height: 750px;
+}

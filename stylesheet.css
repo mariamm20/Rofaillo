@@ -1,0 +1,128 @@
+body{
+background-image:url(bg.jpg);
+}
+.gift{
+border:1px solid #FFF ;
+width:600px;
+margin:50px;
+border-radius:25px;
+padding:50px;
+font-size:60px;
+font-family:Curlz MT;
+font-weight:Bold;
+background:rgba(255,255,255,.4);
+float:left;
+margin-top:110px;
+box-shadow:-8px -8px 6px #F5C0FB inset,
+	    7px 7px 6px #F5C0FB inset;
+text-align:center;
+
+}
+.form{
+border:1px solid #FFF;
+border-radius:25px;
+width:220px;
+margin-left:1000px;
+background:rgba(255,255,255,0.4);
+padding:50px;
+height:400px;
+box-shadow:-8px -8px 6px #F5C0FB inset,
+	    8px 8px 6px #F5C0FB inset;
+}
+.11{
+float:left;
+width:50px;
+}
+#img:hover{
+box-shadow:-2px -2px 5px #F5C0FB inset,
+	    2px 2px 5px #F5C0FB inset;
+border-radius:50%
+
+}
+h1{
+Font-family:Curlz MT;
+text-align:center;
+font-size:50px;
+white-space:nowrap;
+}
+.form .inputbox {
+position:relative;}
+.form .inputbox input{
+width: 100%;
+padding: 10px 0;
+font-size:16px;
+margin-bottom:22px;
+border:none;
+border-bottom:2px solid black;
+background:transparent;
+pointer-event:none;
+outline:none;
+}
+.form .inputbox label{
+position: absolute;
+top:0;
+left:0;
+padding:10px 0;
+font-size:22px;
+pointer-event:none;
+transition:0.5s;
+font-family:Curlz MT;
+}
+.form .inputbox input:focus ~ label,
+.form .inputbox input:valid ~ label
+{
+top:-20px;
+font-size:20px;
+font-family:Curlz MT;
+}
+.form input[type="submit"]
+{
+padding:10px;
+background:rgb(245	,192,	251 );
+border-radius:20px;
+font-family:Cooper;
+font-size:20px;
+font-weight:bold;
+margin-top:30px;
+position: relative;
+cursor: grab;
+}
+
+.balloon{
+	transform: translateY(-500px);
+transition: all 5s ease-in-out;
+margin-left: 250px;
+float: right;
+}
+.tooltip{
+	position: relative;
+	display: inline-block;
+	font-family: cooper;
+	font-size: 18px;
+	cursor: grab;
+}
+.tooltip .tooltiptext{
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	color: black;
+	background-color: #F5C0FB;
+	width: 120px;
+	padding:5px;
+	border-radius: 10px;
+	
+}
+.tooltip:hover .tooltiptext{
+	visibility: visible;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
